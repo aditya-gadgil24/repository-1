@@ -10,25 +10,25 @@ if cx < 90:
     print('You are gone!')
 elif cx == 90:
     print('Saved!')
-elif cx > 90:
-    print('Rewarded!')
+else:
+    print('Going great guns')
 # end of code block
 
 # code snippet
 x = 30
 us_citizen = False
-if x < 30 or us_citizen:
-    print('execute na')
+if x < 30 and us_citizen:
+    print('execute visa app')
 else:
-    print('execute cv')
+    print('reject the bloke')
 # end of code block
 
 # code block 
 list_x = [98, 92, 29, 28, 32, 37, 83, 81, 79, 73, 71, 68 66, 65, 61, 59, 54, 51]
 for value in list_x:
-    if value < 50:
+    if value < 35:
         print('Value is to left of the quartile.')
-    elif value == 50:
+    elif value == 35:
         print('Value is at the centre of quartile.')
     else:
         print('Value is to right of the quartile.')
